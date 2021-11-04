@@ -4,7 +4,7 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './portfolio.module.css';
-
+import Particles from 'react-particles-js';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -35,7 +35,113 @@ export default function Home() {
                <div class="columns">
                   <div class="column is-half is-offset-one-quarter">
                         <h1 id="anim1" class="title is-2 is-spaced"></h1>
-                
+                        <Particles
+      params={{
+         "particles": {
+           "number": {
+             "value": 40,
+             "density": {
+               "enable": true,
+               "value_area": 800
+             }
+           },
+           "color": {
+             "value": "#ffffff"
+           },
+           "shape": {
+             "type": "circle",
+             "stroke": {
+               "width": 0,
+               "color": "#000000"
+             },
+             "polygon": {
+               "nb_sides": 5
+             },
+           },
+           "opacity": {
+             "value": 0.5,
+             "random": false,
+             "anim": {
+               "enable": false,
+               "speed": 1,
+               "opacity_min": 0.1,
+               "sync": false
+             }
+           },
+           "size": {
+             "value": 3,
+             "random": true,
+             "anim": {
+               "enable": false,
+               "speed": 40,
+               "size_min": 0.1,
+               "sync": false
+             }
+           },
+           "line_linked": {
+             "enable": true,
+             "distance": 150,
+             "color": "#ffffff",
+             "opacity": 0.4,
+             "width": 1
+           },
+           "move": {
+             "enable": true,
+             "speed": 2,
+             "direction": "none",
+             "random": false,
+             "straight": false,
+             "out_mode": "out",
+             "bounce": false,
+             "attract": {
+               "enable": false,
+               "rotateX": 600,
+               "rotateY": 1200
+             }
+           }
+         },
+         "interactivity": {
+           "detect_on": "canvas",
+           "events": {
+             "onhover": {
+               "enable": false,
+               "mode": "repulse"
+             },
+             "onclick": {
+               "enable": false,
+               "mode": "push"
+             },
+             "resize": true
+           },
+           "modes": {
+             "grab": {
+               "distance": 462.88401101176675,
+               "line_linked": {
+                 "opacity": 1
+               }
+             },
+             "bubble": {
+               "distance": 400,
+               "size": 40,
+               "duration": 2,
+               "opacity": 8,
+               "speed": 3
+             },
+             "repulse": {
+               "distance": 200,
+               "duration": 0.4
+             },
+             "push": {
+               "particles_nb": 4
+             },
+             "remove": {
+               "particles_nb": 2
+             }
+           }
+         },
+         "retina_detect": true
+       }}
+    />
 
                      <div class="card-content is-flex is-horizontal-center">
                         <figure class="image"><img src="../../static/img/profil.png"/></figure>
