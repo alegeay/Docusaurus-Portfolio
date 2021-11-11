@@ -151,7 +151,11 @@ function Main() {
                <Caract key={idx} {...props} />
             ))}
          </div>
+
+     
+
       </section>
+      
     )
 }
 export default Main

@@ -1,6 +1,7 @@
 .home{
     display: flex;
     flex-direction: column;
+  
 }
 
 canvas {
@@ -31,3 +32,4 @@ canvas {
 .caractIconImage{
     width: 100px;
 }
+
