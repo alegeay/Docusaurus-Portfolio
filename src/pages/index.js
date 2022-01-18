@@ -6,7 +6,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './portfolio.module.css';
 import Main from '../main';
 import Skills from '../skills';
-
+import Timeline from '../timeline';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -30,6 +30,7 @@ export default function Home() {
       <main>
          <Main />
          <Skills />
+         <Timeline/>
       </main>
     </Layout>
   );
