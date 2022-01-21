@@ -24,7 +24,9 @@ const caracts = [
 function Caract({logo, title, description}) {
    return(
       <div className={styles.caract}>
-          <img className={styles.caractIconImage} src={useBaseUrl(`/img/${logo}.png`)}/>
+          <div className={styles.circle}>
+            <img className={styles.caractIconImage} src={useBaseUrl(`/img/${logo}.png`)}/>
+          </div>
           <h3>{title}</h3>
           <p>{description}</p>
       </div>

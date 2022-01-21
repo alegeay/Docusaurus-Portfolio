@@ -7,6 +7,7 @@ import styles from './portfolio.module.css';
 import Main from '../main';
 import Skills from '../skills';
 import Timeline from '../timeline';
+import Contact from '../contact';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -31,6 +32,7 @@ export default function Home() {
          <Main />
          <Skills />
          <Timeline/>
+         <Contact/>
       </main>
     </Layout>
   );

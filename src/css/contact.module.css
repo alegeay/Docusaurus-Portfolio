@@ -1,11 +1,6 @@
-.timelist {
-    list-style-type: none;
-
-}
-
-.timeline{
+.contact{
     display: flex;
     flex-direction: column;
-    
+    background-color: #F5F5F5;
     text-align: center;
 }
