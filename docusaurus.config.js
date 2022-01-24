@@ -43,17 +43,17 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Alexis Legeay',
+        title: 'AlexisLegeay.fr',
         logo: {
           alt: 'Logo Site',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Docs',
+            label: 'Documentation',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
          
@@ -63,7 +63,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Documentation',
             items: [
               {
                 label: 'Tutorial',

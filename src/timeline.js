@@ -3,7 +3,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './css/timeline.module.css';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { FaBeer,FaSchool,FaUniversity,FaQuestion } from 'react-icons/fa';
+import { FaSchool,FaUniversity,FaQuestion } from 'react-icons/fa';
 import { MdSchool } from "react-icons/md";
 import { FcOk,FcSynchronize,FcOrganization } from "react-icons/fc";
 
@@ -106,7 +106,7 @@ function Timeline() {
           contentArrowStyle={{ borderRight: '7px solid  #546A7B' }}
          
           iconStyle={{ background: '#546A7B', color: '#fff' }}
-          icon={<MdSchool />}
+          icon={<FaQuestion />}
         >
           <h3 className="vertical-timeline-element-title">Et après ?</h3>
           
